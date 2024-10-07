@@ -18,7 +18,7 @@ This is a Job List application built using [Next.js](https://nextjs.org/), [Form
 
 ### Clone the repository
 
-git clone https://github.com/yourusername/job-list-app.git
+git clone https://github.com/dipakdade92/job-list-app.git
 cd job-list-app
 
 ## Install dependencies

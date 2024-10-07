@@ -20,7 +20,6 @@ const seedDatabase = async () => {
     stmt.run(job.title, job.description, job.experience);
   });
 
-  console.log('Database seeded with dummy job data.');
 };
 
 seedDatabase().catch(err => console.error('Error seeding database:', err));

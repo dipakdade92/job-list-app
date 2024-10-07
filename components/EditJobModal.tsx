@@ -15,14 +15,6 @@ interface EditJobModalProps {
 }
 
 const EditJobModal: React.FC<EditJobModalProps> = ({ job, closeModal }) => {
-  // const handleSubmit = async (values: { title: string; description: string; experience: number }) => {
-  //   await fetch(`/api/jobs/${job.id}`, {
-  //     method: 'PUT',
-  //     headers: { 'Content-Type': 'application/json' },
-  //     body: JSON.stringify(values),
-  //   });
-  //   closeModal();
-  // };
 
   const dispatch = useAppDispatch();
 
